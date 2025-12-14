@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Info</title>
+  </head>
+  <body>
+    <h2>Student Form</h2>
+
+    <form action="/submit-data" method="POST">
+      <label>First Name:</label>
+      <input type="text" name="firstName" required /><br /><br />
+
+      <label>Last Name:</label>
+      <input type="text" name="lastName" required /><br /><br />
+
+      <label>Age:</label>
+      <input type="number" name="myAge" required /><br /><br />
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="Male" /> Male
+      <input type="radio" name="gender" value="Female" /> Female <br /><br />
+
+      <label>Qualification:</label>
+      <select name="Qual">
+        <option value="BSC">BSC</option>
+        <option value="HNC">HNC</option>
+        <option value="A-level">A-level</option>
+      </select>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
