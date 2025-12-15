@@ -1,5 +1,0 @@
-{
-  "Student1": { "name": "John", "Age": "33", "Qualification": "BSC", "Email": "std1@gm.com", "id": 1 },
-  "Student2": { "name": "David", "Age": "23", "Qualification": "HNC", "Email": "std2@gm.com", "id": 2 },
-  "Student3": { "name": "Emily", "Age": "25", "Qualification": "A-level", "Email": "std3@gm.com", "id": 3 }
-}
